@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Parametrização de cônicas | CURVAS PARAMÉTRICAS </title>
+<title>Parametrização de cônicas | Curvas Paramétricas </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Begoña Alarcón Cotillas (Universidade Federal Fluminense, Brasil)" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" />
@@ -23,10 +23,10 @@
 <body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
-<header id="header"  style="background-image: url(banner.png); background-repeat: repeat-x;"><div id="headerContent">CURVAS PARAMÉTRICAS</div></header>
+<header id="header"  style="background-image: url(banner.png); background-repeat: repeat-x;"><div id="headerContent">Curvas Paramétricas</div></header>
 <nav id="siteNav">
 <ul>
-   <li><a href="index.html" class="daddy main-node">Introdução a Curvas Paramétricas</a></li>
+   <li><a href="index.html" class="daddy main-node">Comece por aqui</a></li>
    <li><a href="desmistificando_as_curvas_paramtricas.html" class="no-ch">Desmistificando as curvas paramétricas</a></li>
    <li><a href="parametrizao_de_retas_e_segmentos_no_plano.html" class="no-ch">Parametrização de retas e segmentos no plano</a></li>
    <li><a href="parametrizao_do_grfico_de_uma_funo.html" class="no-ch">Parametrização do gráfico de uma função</a></li>
@@ -35,6 +35,7 @@
    <li><a href="como_esboar_curvas_com_o_geogebra.html" class="no-ch">Como esboçar curvas com o Geogebra</a></li>
    <li><a href="de_paramtricas_a_cartesiana.html" class="no-ch">De paramétricas a cartesiana</a></li>
    <li><a href="exerccios.html" class="no-ch">Exercícios</a></li>
+   <li><a href="vetor_tangente_e_vetor_velocidade.html" class="no-ch">Vetor tangente e Vetor velocidade</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
@@ -63,20 +64,24 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta22_125_2" class="block iDevice_content">
-<div class="exe-text"><p><img src="circun1.png" alt="circunferencia" title="circunferencia" width="227" height="207" style="float: left; margin: 10px;" />A equação cartesiana da circunferência de centro a origem e raio 2 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x^2+y^2=4,\quad \) </span></span>certo? </p>
+<div class="exe-text"><p><img src="circun1.png" alt="circunferencia" title="circunferencia" width="227" height="207" style="vertical-align: baseline; margin: 10px;" /></p>
+<p>A equação cartesiana da circunferência de centro a origem e raio 2 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x^2+y^2=4,\quad \) </span></span><a href="https://brasilescola.uol.com.br/matematica/circunferencia.htm" title="Veja mais sobre" class="exe-tooltip plain-tt">certo</a>? Acesse <a href="https://youtu.be/f1p2Va8c914?feature=shared" title="Equação da circunferência"> esse vídeo</a> caso não estiver tão certo :-)</p>
 <p>Qual será, então, suas equações paramétricas? Vamos lá!</p>
-<p>Sabemos por trigonometria que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cos(t)^2+\operatorname{sen}(t)^2=1\quad \)</span></span> para todo t entre 0 e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(2\pi. \)</span></span> Não é? </p>
+<p>Sabemos por trigonometria que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cos(t)^2+\operatorname{sen}(t)^2=1\quad \)</span></span> para todo t real. Não é? </p>
 <p>Então, fazendo certinho a conta, temos que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad (2\cos(t))^2+ (2\operatorname{sen}(t))^2=4.\quad \)</span></span> Pronto! Já sabemos quem é x e quem é y!</p>
-<p>A parametrização da circunferência de centro a origem e raio 2 é </p>
+<p>Uma parametrização da circunferência de centro a origem e raio 2 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;= 2\cos(t) \\ y(t) &amp;= 2\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] </span></span></p>
-<p>Acredite, sim.... Faça a conta e confira. Vai ver que os pontos dessa curva verificam que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x^2+y^2=4,\quad \) </span></span></p>
+<p><a title="Clique aqui" class="exe-dialog-link" rel="lightbox" href="#t0c145ba7-8bf5-22ad-1ce8-e20bb64deb61" id="link0c145ba7-8bf5-22ad-1ce8-e20bb64deb61">Acredite, sim....</a> Faça a conta e confira. Vai ver que os pontos dessa curva verificam que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x^2+y^2=4. \) </span></span></p>
 <p><strong>Curiosidade:</strong> Pergunte seu/sua professor/a o que significa a setinha que aparece na imagem do segmento. Com certeza ele/a vai falar de orientação de curvas!</p>
-<p>  </p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Qual será a parametrização da circunferência  de centro (-1,7) e raio 3?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da circunferência de centro (-1,7) e raio 3 é </p>
+<p>  </p>
+<div id="t0c145ba7-8bf5-22ad-1ce8-e20bb64deb61" class="exe-dialog-text js-hidden">
+<p>Observe que tanto o cosseno como o seno são 2pi periódicos. Daí, colocando t entre 0 e 2pi, daremos apenas uma volta na circunferência. Quantas voltas daríamos se colocarmos t entre 0 e 4pi?</p>
+</div></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Encontre uma parametrização da circunferência  de centro (-1,7) e raio 3?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da circunferência de centro (-1,7) e raio 3 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">(x+1)^2+(y-7)^2=9</span></span></p>
 <p>Portanto, fazendo <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x+1=3\cos(t)\quad \)</span></span> e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad y-7=3\operatorname{sen}(t),\quad \)</span></span> <a title="Sacou?" class="exe-dialog-link" rel="lightbox" href="#tf8f21074-0a33-b4e3-07bf-ba411be7d98e" id="linkf8f21074-0a33-b4e3-07bf-ba411be7d98e">a equação é satisfeita</a>.</p>
-<p>Sendo assim, a equação paramétrica da circunferência de centro (-1,7) e raio 3 é </p>
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;= -1+3\cos(t) \\ y(t) &amp;= 7+3\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] </span></span></p>
-<p><strong>Curiosidade:</strong> Se esboçarmos a curva, para onde iria a setinha? E se trocar o seno pelo cosseno e viceversa nas equações paramétricas?</p>
+<p>Sendo assim, uma equação paramétrica da circunferência de centro (-1,7) e raio 3 é </p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) = -1+3\cos(t) \\ y(t)= 7+3\operatorname{sen}(t)\end{cases} \;,\,t\in [0,2\pi] </span></span></p>
+<p><strong>Curiosidade:</strong> Se esboçarmos a curva, para onde iria a setinha? E se trocar o seno pelo cosseno e vice-versa nas equações paramétricas?</p>
 <p>Entre em contato com os monitores se ainda estiveres com dúvidas.</p>
 <p>Força!</p>
 <div id="tf8f21074-0a33-b4e3-07bf-ba411be7d98e" class="exe-dialog-text js-hidden">
@@ -96,8 +101,7 @@
 <form name="multi-choice-form-65_86" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion65_86" class="block question iDevice_content">
-<p><span style="color: #339966;">Qual das seguintes curvas é uma circunferência? </span></p>
-<p><span style="color: #339966;">Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Qual das seguintes curvas é uma circunferência? <br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
@@ -120,7 +124,7 @@
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -\sqrt{3}+2\cos(t) \\ y(t) &amp;=\sqrt{3}+ 4\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\sec(t) \\ y(t) &amp;=4+ \sqrt{3}\tan(t)\end{cases} \quad ,\,t\in (-\frac{\pi}{2},-\frac{\pi}{2})\cup (\frac{\pi}{2},\frac{3\pi}{2}) \quad \) </span></span></p> 
 Boa!! Pode ir para o seguinte bloco. Força!-->
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cosh(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{senh}(t)\end{cases} \quad ,\,t\in \mathbb{R} \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -2+\sqrt{3}\cosh(t) \\ y(t)=4+ \sqrt{3}\operatorname{senh}(t)\end{cases},\,t\in \mathbb{R} \quad \) </span></span></p>
 </div>
 </div>
 </section>
@@ -135,7 +139,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -\sqrt{3}+2\cos(t) \\ y(t) &amp;=\sqrt{3}+ 4\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\sec(t) \\ y(t) &amp;=4+ \sqrt{3}\tan(t)\end{cases} \quad ,\,t\in (-\frac{\pi}{2},-\frac{\pi}{2})\cup (\frac{\pi}{2},\frac{3\pi}{2}) \quad \) </span></span></p> 
 Boa!! Pode ir para o seguinte bloco. Força!-->
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cos(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -2+\sqrt{3}\cos(t) \\ y(t)=4+ \sqrt{3}\operatorname{sen}(t)\end{cases},\,t\in [0,\pi] \quad \) </span></span></p>
 </div>
 </div>
 </section>
@@ -150,7 +154,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -\sqrt{3}+2\cos(t) \\ y(t) &amp;=\sqrt{3}+ 4\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\sec(t) \\ y(t) &amp;=4+ \sqrt{3}\tan(t)\end{cases} \quad ,\,t\in (-\frac{\pi}{2},-\frac{\pi}{2})\cup (\frac{\pi}{2},\frac{3\pi}{2}) \quad \) </span></span></p> 
 Boa!! Pode ir para o seguinte bloco. Força!-->
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cos(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -2+\sqrt{3}\cos(t) \\ y(t)=4+ \sqrt{3}\operatorname{sen}(t)\end{cases},\,t\in [0,2\pi] \quad \) </span></span></p>
 </div>
 </div>
 </section>
@@ -159,7 +163,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <label for="i65_370" class="sr-av"><a href="#answer-65_370">Opção 4</a></label><input type="radio" name="option65_86" id="i65_370" class="exe-radio-option exe-radio-option-3-4-65_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-65_370"><div id="taans65_370" class="block iDevice_content">
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= \sqrt{3}+2\cos(t) \\ y(t) &amp;=\sqrt{3}+4\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= \sqrt{3}+2\cos(t) \\ y(t)=\sqrt{3}+4\operatorname{sen}(t)\end{cases},\,t\in [0,2\pi] \quad \) </span></span></p>
 </div>
 </div>
 </section>
@@ -202,7 +206,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <form name="multi-choice-form-65_95" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion65_95" class="block question iDevice_content">
-<p><span style="color: #339966;">Qual das seguintes curvas é uma circunferência?<br />Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Qual das seguintes curvas é uma circunferência?<br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
@@ -219,7 +223,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <label for="i65_364" class="sr-av"><a href="#answer-65_364">Opção 1</a></label><input type="radio" name="option65_95" id="i65_364" class="exe-radio-option exe-radio-option-0-3-65_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-65_364"><div id="taans65_364" class="block iDevice_content">
-<p>\( \quad \begin{cases} x(t) \;= t \\ y(t) \;=\pm \sqrt{1-t^2}\end{cases} \quad ,\, t\in (-1,1) \quad \) </p>
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\pm \sqrt{1-t^2}\end{cases}\; , \,t\in (-1,1) \quad \) </p>
 </div>
 </div>
 </section>
@@ -228,7 +232,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <label for="i65_373" class="sr-av"><a href="#answer-65_373">Opção 2</a></label><input type="radio" name="option65_95" id="i65_373" class="exe-radio-option exe-radio-option-1-3-65_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-65_373"><div id="taans65_373" class="block iDevice_content">
-<p>\( \quad \begin{cases} x(t) \;= t \\ y(t) \;=\sqrt{1-t^2}\end{cases} \quad ,\, t\in (-1,1) \quad \) </p>
+<p>\( \quad \begin{cases} x(t) = t \\ y(t) =\sqrt{1-t^2}\end{cases}\; ,\, t\in (-1,1) \quad \) </p>
 </div>
 </div>
 </section>
@@ -237,7 +241,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <label for="i65_398" class="sr-av"><a href="#answer-65_398">Opção 3</a></label><input type="radio" name="option65_95" id="i65_398" class="exe-radio-option exe-radio-option-2-3-65_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-65_398"><div id="taans65_398" class="block iDevice_content">
-<p>\( \quad \begin{cases} x(t) \;= t \\ y(t) \;=\sqrt{t^2-1}\end{cases} \quad ,\, t&gt;1 \quad \) </p>
+<p>\( \quad \begin{cases} x(t) = t \\ y(t) =\pm\sqrt{t^2-1}\end{cases}\;,\, t&gt;1 \quad \) </p>
 </div>
 </div>
 </section>
@@ -246,8 +250,8 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Feedback</h1>
 <section id="sa0b65_95" class="feedback js-hidden">
 <div id="taf65_364" class=" iDevice_content">
-<p>Achou!! A circunferência <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; x^2+y^2=1 \; \) </span></span> não é o gráfico de uma função, mas a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\sqrt{1-t^2}\; \) </span></span> e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\;y=- \sqrt{1-t^2}\; \) </span></span> sim o são.</p>
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\sqrt{1-t^2}\; \) </span></span> é a semi-circunferência superior e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=-\sqrt{1-t^2}\; \) </span></span> é a semi-circunferência inferior, certo? O que fizemos foi juntar a parametrização das duas semi-circunferênicias como sendo gráfico de funções para obter a parametrização da circunferência toda. Sacou?</p>
+<p>Achou!! A circunferência <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; x^2+y^2=1 \; \) </span></span> não é o gráfico de uma função, mas a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\sqrt{1-x^2}\; \) </span></span> e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\;y=- \sqrt{1-x^2}\; \) </span></span> sim o são.</p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\sqrt{1-x^2}\; \) </span></span> é a semi-circunferência superior e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=-\sqrt{1-x^2}\; \) </span></span> é a semi-circunferência inferior, certo? O que fizemos foi juntar a parametrização das duas semi-circunferênicias como sendo gráfico de funções para obter a parametrização da circunferência toda. Sacou?</p>
 <p>Contate os monitores caso você ainda esteja com dúvidas. Força!</p>
 </div>
 </section>
@@ -282,18 +286,19 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta37_124_2" class="block iDevice_content">
-<div class="exe-text"><p><img src="elip1.png" alt="elipse" title="elipse" width="234" height="169" style="float: left; margin: 10px;" />A equação cartesiana da elipse de centro a origem e semi-eixos a=3 e b=2 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{9}+\dfrac{y^2}{4}=1,\quad \) </span></span>certo? </p>
+<div class="exe-text"><p><img src="elip1.png" alt="elipse" title="elipse" width="234" height="169" style="vertical-align: baseline; margin: 10px;" /></p>
+<p>A equação cartesiana da elipse de centro a origem e semi-eixos a=3 e b=2 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{9}+\dfrac{y^2}{4}=1,\quad \) </span></span><a href="https://brasilescola.uol.com.br/matematica/elipse.htm" title="Veja mais sobre" class="exe-tooltip plain-tt">certo</a>? Acesse <a href="https://youtu.be/B_ux6wkUpMk?feature=shared" title="Introdução à elipse">esse vídeo</a> e <a href="https://youtu.be/zHsE0IS129I?feature=shared" title="Dedução da equação da elipse">esse outro</a> caso não estiver tão certo :-)</p>
 <p>Qual será, então, suas equações paramétricas? Vamos lá!</p>
-<p>Como <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cos(t)^2+\operatorname{sen}(t)^2=1\quad \)</span></span> para todo t entre 0 e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(2\pi \),</span></span> então</p>
+<p>Como <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cos(t)^2+\operatorname{sen}(t)^2=1\quad \)</span></span> para todo t real, então</p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(3\cos(t))^2}{9}+ \dfrac{(2\operatorname{sen}(t))^2}{4}=1,\quad \)</span></span> não é?</p>
 <p>Pronto! Já sabemos quem é x e quem é y!</p>
-<p>A parametrização da elipse de centro a origem e semi-eixos a=3 e b=2 é </p>
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;= 3\cos(t) \\ y(t) &amp;= 2\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] </span></span></p>
+<p>Uma parametrização da elipse de centro a origem e semi-eixos a=3 e b=2 é </p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) = 3\cos(t) \\ y(t) = 2\operatorname{sen}(t)\end{cases} \; ,\,t\in [0,2\pi] </span></span></p>
 <p>Acredite, sim.... Faça a conta e confira. Vai ver que os pontos dessa curva verificam que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{9}+\dfrac{y^2}{4}=1,\quad \) </span></span></p>
 <p><strong>Curiosidade:</strong> Pergunte seu/sua professor/a o que significa a setinha que aparece na imagem do segmento. Com certeza ele/a vai falar de orientação de curvas!</p>
-<p>  </p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Qual será a parametrização da elipse  de centro (2,-1) e semi-eixos a=5 e b=3?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da elipse  de centro (2,-1) e semi-eixos a=5 e b=3 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(x-2)^2}{25}+\dfrac{(y+1)^2}{9}=1.\quad \) </span></span></p>
+<p>  </p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Encontre uma parametrização da elipse  de centro (2,-1) e semi-eixos a=5 e b=3?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da elipse  de centro (2,-1) e semi-eixos a=5 e b=3 é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(x-2)^2}{25}+\dfrac{(y+1)^2}{9}=1.\quad \) </span></span></p>
 <p>Logo, fazendo <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x-2=5\cos(t)\quad \)</span></span> e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad y+1=3\operatorname{sen}(t),\quad \)</span></span> <a title="Sacou?" class="exe-dialog-link" rel="lightbox" href="#t78f0d50a-86e3-2421-5a7e-f97f41787c54" id="link78f0d50a-86e3-2421-5a7e-f97f41787c54">a equação é satisfeita</a>.</p>
-<p>Donde, a equação paramétrica da elipse  de centro (2,-1) e semi-eixos a=5 e b=3 é </p>
+<p>Donde, uma equação paramétrica da elipse  de centro (2,-1) e semi-eixos a=5 e b=3 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;=2+5\cos(t) \\ y(t) &amp;=-1+3\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] </span></span></p>
 <p><strong>Curiosidade:</strong> Se esboçarmos a curva, para onde iria a setinha? E se trocar o seno pelo cosseno e viceversa nas equações paramétricas?</p>
 <p>Legal, né?</p>
@@ -316,14 +321,13 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <form name="multi-choice-form-66_86" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion66_86" class="block question iDevice_content">
-<p><span style="color: #339966;">Qual das seguintes curvas é uma elipse? </span></p>
-<p><span style="color: #339966;">Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Qual das seguintes curvas é uma elipse? <br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
 <div class="iDevice_hint_content js-hidden">
 <div id="tahint66_86" class="block iDevice_content">
-<p>l</p>
+<p>Se atente ao número que multiplica o seno e o cosseno. Devem ser diferentes!</p>
 </div>
 </div>
 </section>
@@ -331,19 +335,43 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i66_89" class="sr-av"><a href="#answer-66_89">Opção 1</a></label><input type="radio" name="option66_86" id="i66_89" class="exe-radio-option exe-radio-option-0-2-66_86-multi"/>
+<label for="i66_89" class="sr-av"><a href="#answer-66_89">Opção 1</a></label><input type="radio" name="option66_86" id="i66_89" class="exe-radio-option exe-radio-option-0-4-66_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-66_89"><div id="taans66_89" class="block iDevice_content">
-<p>1</p>
+<!--<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cosh(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{senh}(t)\end{cases} \quad ,\,t\in \mathbb{R} \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cos(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\cos(t) \\ y(t) &amp;=4+ \sqrt{3}\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -\sqrt{3}+2\cos(t) \\ y(t) &amp;=\sqrt{3}+ 4\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= -2+\sqrt{3}\sec(t) \\ y(t) &amp;=4+ \sqrt{3}\tan(t)\end{cases} \quad ,\,t\in (-\frac{\pi}{2},-\frac{\pi}{2})\cup (\frac{\pi}{2},\frac{3\pi}{2}) \quad \) </span></span></p> 
+Boa!! Pode ir para o seguinte bloco. Força!-->
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -2+3\cos(t) \\ y(t)=4+ 3\operatorname{sen}(t)\end{cases},\,t\in [0,2\pi] \quad \) </span></span></p>
 </div>
 </div>
 </section>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i66_92" class="sr-av"><a href="#answer-66_92">Opção 2</a></label><input type="radio" name="option66_86" id="i66_92" class="exe-radio-option exe-radio-option-1-2-66_86-multi"/>
+<label for="i66_92" class="sr-av"><a href="#answer-66_92">Opção 2</a></label><input type="radio" name="option66_86" id="i66_92" class="exe-radio-option exe-radio-option-1-4-66_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-66_92"><div id="taans66_92" class="block iDevice_content">
-
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -1+3\cos(t) \\ y(t)=-1+ 2\operatorname{sen}(t)\end{cases},\,t\in [-\frac{\pi}{2},0] \quad \) </span></span></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i66_417" class="sr-av"><a href="#answer-66_417">Opção 3</a></label><input type="radio" name="option66_86" id="i66_417" class="exe-radio-option exe-radio-option-2-4-66_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-66_417"><div id="taans66_417" class="block iDevice_content">
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -1+3\operatorname{sen}(t) \\ y(t)=3+ 2\cos(t)\end{cases},\,t\in [0,2\pi] \quad \) </span></span></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i66_420" class="sr-av"><a href="#answer-66_420">Opção 4</a></label><input type="radio" name="option66_86" id="i66_420" class="exe-radio-option exe-radio-option-3-4-66_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-66_420"><div id="taans66_420" class="block iDevice_content">
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t)= -1+3\cosh(t) \\ y(t)=-1+ 2\operatorname{senh}(t)\end{cases},\,t\in \mathbb{R} \quad \) </span></span></p>
 </div>
 </div>
 </section>
@@ -352,19 +380,34 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Feedback</h1>
 <section id="sa0b66_86" class="feedback js-hidden">
 <div id="taf66_89" class=" iDevice_content">
-<p>f</p>
+<p>Ops! Esta curva é uma circunferência. Tente de novo!</p>
 </div>
 </section>
 <section id="sa1b66_86" class="feedback js-hidden">
-<p>Errado</p>
+<div id="taf66_92" class=" iDevice_content">
+<p>Ops! Essa curva é um quarto da elipse. Tente de novo!</p>
+<p>Se atente ao tempo. Calcule o ponto inicial e o ponto final da parametrização e descubra qual parte da elipse é essa curva. Força!</p>
+</div>
+</section>
+<section id="sa2b66_86" class="feedback js-hidden">
+<div id="taf66_417" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa3b66_86" class="feedback js-hidden">
+<div id="taf66_420" class=" iDevice_content">
+<p>Ops! O cosseno e o seno devem ser trigonométricos. Tente de novo!</p>
+</div>
 </section>
 </section>
 </form>
 <section class="iDevice_solution feedback js-hidden">
 <h1>Solução</h1>
 <ol>
-<li><a href="#answer-66_89">Opção correta</a><span> (<a href="#sa0b66_86">Feedback</a>)</span></li>
+<li><a href="#answer-66_89">Errado</a><span> (<a href="#sa0b66_86">Feedback</a>)</span></li>
 <li><a href="#answer-66_92">Errado</a><span> (<a href="#sa1b66_86">Feedback</a>)</span></li>
+<li><a href="#answer-66_417">Opção correta</a><span> (<a href="#sa2b66_86">Feedback</a>)</span></li>
+<li><a href="#answer-66_420">Errado</a><span> (<a href="#sa3b66_86">Feedback</a>)</span></li>
 </ol>
 </section>
 </section>
@@ -372,14 +415,13 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <form name="multi-choice-form-66_95" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion66_95" class="block question iDevice_content">
-<p><span style="color: #339966;">Qual das seguintes curvas é uma elipse? </span></p>
-<p><span style="color: #339966;">Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Qual das seguintes curvas é uma elipse? <br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
 <div class="iDevice_hint_content js-hidden">
 <div id="tahint66_95" class="block iDevice_content">
-<p>k</p>
+<p>Tente encontrar duas funções cujos gráficos juntos completem uma elipse toda. Use as parametrizações desses gráficos para dar a parametrização da elipse.</p>
 </div>
 </div>
 </section>
@@ -387,19 +429,28 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i66_98" class="sr-av"><a href="#answer-66_98">Opção 1</a></label><input type="radio" name="option66_95" id="i66_98" class="exe-radio-option exe-radio-option-0-2-66_95-multi"/>
+<label for="i66_98" class="sr-av"><a href="#answer-66_98">Opção 1</a></label><input type="radio" name="option66_95" id="i66_98" class="exe-radio-option exe-radio-option-0-3-66_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-66_98"><div id="taans66_98" class="block iDevice_content">
-<p>1</p>
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\pm \sqrt{3-t^2}\end{cases}\;,\, t\in (-3,3) \quad \) </p>
 </div>
 </div>
 </section>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i66_101" class="sr-av"><a href="#answer-66_101">Opção 2</a></label><input type="radio" name="option66_95" id="i66_101" class="exe-radio-option exe-radio-option-1-2-66_95-multi"/>
+<label for="i66_101" class="sr-av"><a href="#answer-66_101">Opção 2</a></label><input type="radio" name="option66_95" id="i66_101" class="exe-radio-option exe-radio-option-1-3-66_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-66_101"><div id="taans66_101" class="block iDevice_content">
-
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\dfrac{2}{3}\sqrt{9-t^2}\end{cases}\;,\, t\in (-3,3) \quad \) </p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i66_423" class="sr-av"><a href="#answer-66_423">Opção 3</a></label><input type="radio" name="option66_95" id="i66_423" class="exe-radio-option exe-radio-option-2-3-66_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-66_423"><div id="taans66_423" class="block iDevice_content">
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\pm \dfrac{2}{3}\sqrt{9-t^2}\end{cases}\;,\, t\in (-3,3) \quad \) </p>
 </div>
 </div>
 </section>
@@ -408,11 +459,21 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Feedback</h1>
 <section id="sa0b66_95" class="feedback js-hidden">
 <div id="taf66_98" class=" iDevice_content">
-<p>f</p>
+<p>Ops! Essa é outra curva. Qual será?</p>
 </div>
 </section>
 <section id="sa1b66_95" class="feedback js-hidden">
-<p>Errado</p>
+<div id="taf66_101" class=" iDevice_content">
+<p>Ops! Falta metade da elipse. Tente de novo!</p>
+</div>
+</section>
+<section id="sa2b66_95" class="feedback js-hidden">
+<div id="taf66_423" class=" iDevice_content">
+<p>Achou!! A elipse <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; \dfrac{x^2}{9}+\dfrac{y^2}{4}=1 \; \) </span></span> não é o gráfico de uma função, mas a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\dfrac{2}{3}\sqrt{9-x^2}\; \) </span></span> e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\;y=-\dfrac{2}{3}\sqrt{9-x^2}\; \) </span></span> sim o são.</p>
+<p>Observe que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\dfrac{2}{3}\sqrt{9-x^2}\; \) </span></span> é a semi-elipse superior e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=-\dfrac{2}{3}\sqrt{9-x^2}\; \) </span></span> é a semi-elipse inferior, pois isolando \(\;y\;\) da equação cartesiana temos que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; \dfrac{y^2}{4}=1-\dfrac{x^2}{9}=\dfrac{9-x^2}{9} \; \) </span></span></p>
+<p>O que fizemos, então, foi juntar a parametrização das duas semi-esferas como sendo gráfico de funções para obter a parametrização da esfera toda. Sacou?</p>
+<p>Contate os monitores caso você ainda esteja com dúvidas. Força!</p>
+</div>
 </section>
 </section>
 </form>
@@ -421,6 +482,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <ol>
 <li><a href="#answer-66_98">Opção correta</a><span> (<a href="#sa0b66_95">Feedback</a>)</span></li>
 <li><a href="#answer-66_101">Errado</a><span> (<a href="#sa1b66_95">Feedback</a>)</span></li>
+<li><a href="#answer-66_423">Errado</a><span> (<a href="#sa2b66_95">Feedback</a>)</span></li>
 </ol>
 </section>
 </section>
@@ -435,7 +497,8 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <div class="iDevice_content_wrapper">
 <div id="ta38_125_2" class="block iDevice_content">
 <div class="exe-text"><p>A hipérbole, a diferença da circunferência e a elipse, possui duas parametrizações padrão. A primeira e mais simples de se lembrar (por analogia às outras cônicas) envolve funções hiperbólicas. Já a segunda envolve funções trigonométricas. </p>
-<p><img src="hip1.png" alt="hiperbole" title="hiperbole" width="213" height="208" style="float: left; margin: 10px;" />Daremos as duas parametrizações da hipérbole de centro a origem, focos sobre o eixo horizontal e semi-eixos a=4 e b=3. A equação cartesiana dessa hipérbole é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{4}-\dfrac{y^2}{9}=1,\quad \) </span></span> <a href="https://brasilescola.uol.com.br/matematica/hiperbole.htm" title="Veja mais sobre " hip="" rbole="" geometria="" anal="" tica="" :="" o="" que="" como="" fazer="" class="exe-tooltip plain-tt">certo?</a></p>
+<p><img src="hip1.png" alt="hiperbole" title="hiperbole" width="213" height="208" style="vertical-align: baseline; margin: 10px;" /></p>
+<p>Daremos as duas parametrizações da hipérbole de centro a origem, focos sobre o eixo horizontal e semi-eixos a=4 e b=3. A equação cartesiana dessa hipérbole é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{4}-\dfrac{y^2}{9}=1,\quad \) </span></span> <a href="https://brasilescola.uol.com.br/matematica/hiperbole.htm" title="Veja mais sobre " hip="" rbole="" geometria="" anal="" tica="" :="" o="" que="" como="" fazer="" class="exe-tooltip plain-tt">certo?</a> Acesse <a href="https://youtu.be/IM1HsEXOlVk?feature=shared" title="Introdução a hipérbole">esse vídeo</a> e <a href="https://youtu.be/HurWijTR6g8?feature=shared" title="Dedução da Equação da Hipérbole">esse outro</a> caso não estiver tão certo :-)</p>
 <ul style="list-style-type: square;">
 <li>
 <p class="js-required"><input type="button" value="Parametrização por funções hiperbólicas" onclick="$('#parhiperbolehip').toggle()" /></p>
@@ -449,7 +512,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p>Como <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cosh^2(t)-\operatorname{senh}^2(t)=1,\quad \)</span></span> para todo t nos reais, então</p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(2\cosh(t))^2}{4}- \dfrac{(3\operatorname{sen}(t))^2}{4}=1,\quad \)</span></span> não é?</p>
 <p>Pronto! Já sabemos quem é x e quem é y!</p>
-<p>A parametrização da hipérbole de centro a origem, focos sobre o eixo horizontal, eixo real de medida 4 e eixo imaginário de medida 6 é </p>
+<p>Uma parametrização da hipérbole de centro a origem, focos sobre o eixo horizontal, eixo real de medida 4 e eixo imaginário de medida 6 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;= \pm 2\cosh(t) \\ y(t) &amp;= 3\operatorname{senh}(t)\end{cases} \quad ,\,t\in \mathbb{R} </span></span></p>
 <p>Acredite, sim.... Faça a conta e confira. Vai ver que os pontos dessa curva verificam que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{4}-\dfrac{y^2}{9}=1,\quad \) </span></span></p>
 <p><strong>Atenção!</strong> O <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \pm \quad \) </span></span> que aparece na parametrização não é nada demais... Não se espante. É devido a que o <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \cosh(t)\quad \) </span></span> é sempre positivo. Assim <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad +\cos(t)\quad \) </span></span> dá o ramo positivo da hipérbole e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad -\cosh(t)\quad \) </span></span> descreve o ramo negativo. Viu como não era para tanto? Acredite mais em você!! Pode conferir certinho essa propriedade <a href="como_esboar_curvas_com_o_geogebra.html" title="Abuse do Geogebra!" class="exe-tooltip plain-tt">esboçando as curvas no Geogebra</a>. Deve esboçar por serparado, primeiro com + e depois com -, ta? Força!</p>
@@ -463,7 +526,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p>Se não quisermos saber <a title="Não aconselho!! Por que?" class="exe-dialog-link" rel="lightbox" href="#ointervaloimporta" id="link11e64a90-8133-6ae4-00cf-68f7544ea27f">nada do intervalo</a> já poderíamos dar a parametrização como fizemos com a elipse, pois <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(2\sec(t))^2}{4}- \dfrac{(3\tan(t))^2}{4}=1,\quad \)</span></span> não é?</p>
 <p>Daí, <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x(t)= 2\sec(t)\; \)</span></span> e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; y(t)= 3\tan(t).\quad \)</span></span>Agora somente falta ver o intervalo! Bora?</p>
 <p>Assim como acontecia com o <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; \cosh(t),\; \)</span></span> a <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; sec(t)\; \)</span></span> também muda de sinal. Sendo ela possitiva em <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; (-\dfrac{\pi}{2},\dfrac{\pi}{2})\; \)</span></span> e negativa em <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; (\dfrac{\pi}{2},\dfrac{3\pi}{2})\; \)</span></span></p>
-<p>Então já está o pacote fechado! A parametrização da hipérbole de centro a origem, focos sobre o eixo horizontal, eixo real de medida 4 e eixo imaginário de medida 6 é </p>
+<p>Então já está o pacote fechado! Uma parametrização da hipérbole de centro a origem, focos sobre o eixo horizontal, eixo real de medida 4 e eixo imaginário de medida 6 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;= 2\sec(t) \\ y(t) &amp;= 3\tan(t)\end{cases} \quad ,\,t\in (-\dfrac{\pi}{2},\dfrac{\pi}{2})\cup(\dfrac{\pi}{2},\dfrac{3\pi}{2}) </span></span></p>
 <p>Acredite, sim.... Faça a conta e confira. Vai ver que os pontos dessa curva verificam que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{x^2}{4}-\dfrac{y^2}{9}=1,\quad \) </span></span></p>
 <p><strong>Atenção!</strong> O intervalo <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; (-\dfrac{\pi}{2},\dfrac{\pi}{2}) \; \) </span></span> se corresponde com o ramo positivo da hipérbole (já que x&gt;0). Já o intervalo <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\; (\dfrac{\pi}{2},\dfrac{3\pi}{2}) \; \) </span></span> se corresponde com o ramo negativo da hipérbole (já que x&lt; 0). Pode conferir certinho essa propriedade <a href="como_esboar_curvas_com_o_geogebra.html" title="Abuse do Geogebra!" class="exe-tooltip plain-tt">esboçando as curvas no Geogebra</a>. Lembre que deve esboçar os ramos por serparado, ta? Primeiro um intervalo e depois o outro. Força!</p>
@@ -475,9 +538,9 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p> </p>
 <div id="ointervaloimporta" class="exe-dialog-text js-hidden">
 <p>Tente esboçar a circunferência fazendo t variar entre 0 e pi. A que não é a mesma curva? O que? Que você acha isso frescura? Tudo bem... Imagine que somente percorrendo a circunferência toda você receberia um celular de brinde. Não gostaria ficar na metade, certo? Então veja como é de importante o intervalo em uma parametrização!</p>
-</div></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Qual será a parametrização da hipérbole de centro a (-4,-11) e semi-eixos a=5 e b=4?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da hipérbole de centro a (-4,-11), focos sobre o eixo horizontal e semi-eixos a=5 e b=4  é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(x+4)^2}{25}+\dfrac{(y+11)^2}{16}=1.\quad \) </span></span></p>
+</div></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Encontre uma parametrização da hipérbole de centro a (-4,-11) e semi-eixos a=5 e b=4?" /></div><div class="feedback js-feedback js-hidden"><p>A equação (cartesiana) da hipérbole de centro a (-4,-11), focos sobre o eixo horizontal e semi-eixos a=5 e b=4  é <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad \dfrac{(x+4)^2}{25}+\dfrac{(y+11)^2}{16}=1.\quad \) </span></span></p>
 <p>Logo, fazendo <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad x+4=5\cosh(t)\quad \)</span></span> e <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">\(\quad y+11=4\operatorname{senh}(t),\quad \)</span></span> <a title="Sacou?" class="exe-dialog-link" rel="lightbox" href="#t78f0d50a-86e3-2421-5a7e-f97f41787c54" id="link78f0d50a-86e3-2421-5a7e-f97f41787c54">a equação é satisfeita</a>.</p>
-<p>Daí, a equação paramétrica da hipérbole de centro a (-4,-11), focos sobre o eixo horizontal e semi-eixos a=5 e b=4 é </p>
+<p>Daí, uma equação paramétrica da hipérbole de centro a (-4,-11), focos sobre o eixo horizontal e semi-eixos a=5 e b=4 é </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;=-4\pm 5\cosh(t) \\ y(t) &amp;=-11+4\operatorname{senh}(t)\end{cases} \quad ,\,t\in \mathbb{R} </span></span></p>
 <p>Uma outra equação paramétrica da hipérbole de centro a (-4,-11), focos sobre o eixo horizontal e semi-eixos a=5 e b=4 seria </p>
 <p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \begin{cases} x(t) &amp;=-4+ 5\sec(t) \\ y(t) &amp;=-11+4\tan(t)\end{cases} \quad ,\,t\in (-\dfrac{\pi}{2},\dfrac{\pi}{2})\cup(\dfrac{\pi}{2},\dfrac{3\pi}{2}) </span></span></p>
@@ -502,14 +565,13 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <form name="multi-choice-form-67_86" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion67_86" class="block question iDevice_content">
-<p><span style="color: #339966;">Quais das seguintes curvas é uma hipérbole? Pode haver mais de uma... </span></p>
-<p><span style="color: #339966;">Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Quais das seguintes curvas é uma hipérbole? Pode haver mais de uma... <br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
 <div class="iDevice_hint_content js-hidden">
 <div id="tahint67_86" class="block iDevice_content">
-<p>k</p>
+<p>Se atente ao tipo de seno e cosseno ou às funções trigonométricas envolvidas.</p>
 </div>
 </div>
 </section>
@@ -517,28 +579,46 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i67_89" class="sr-av"><a href="#answer-67_89">Opção 1</a></label><input type="radio" name="option67_86" id="i67_89" class="exe-radio-option exe-radio-option-0-3-67_86-multi"/>
+<label for="i67_89" class="sr-av"><a href="#answer-67_89">Opção 1</a></label><input type="radio" name="option67_86" id="i67_89" class="exe-radio-option exe-radio-option-0-5-67_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-67_89"><div id="taans67_89" class="block iDevice_content">
-<p>1</p>
+<p> \(\begin{cases} x(t)= -2\pm3\cosh(t) \\ y(t)=4+ 3\operatorname{senh}(t)\end{cases},\,t\in [0,2\pi] \)</p>
 </div>
 </div>
 </section>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i67_92" class="sr-av"><a href="#answer-67_92">Opção 2</a></label><input type="radio" name="option67_86" id="i67_92" class="exe-radio-option exe-radio-option-1-3-67_86-multi"/>
+<label for="i67_92" class="sr-av"><a href="#answer-67_92">Opção 2</a></label><input type="radio" name="option67_86" id="i67_92" class="exe-radio-option exe-radio-option-1-5-67_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-67_92"><div id="taans67_92" class="block iDevice_content">
-<p>2</p>
+<p> \(\begin{cases} x(t)= -2\pm3\cos(t) \\ y(t)=4+ 3\operatorname{sen}(t)\end{cases},\,t\in \mathbb{R} \)</p>
 </div>
 </div>
 </section>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i67_401" class="sr-av"><a href="#answer-67_401">Opção 3</a></label><input type="radio" name="option67_86" id="i67_401" class="exe-radio-option exe-radio-option-2-3-67_86-multi"/>
+<label for="i67_401" class="sr-av"><a href="#answer-67_401">Opção 3</a></label><input type="radio" name="option67_86" id="i67_401" class="exe-radio-option exe-radio-option-2-5-67_86-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-67_401"><div id="taans67_401" class="block iDevice_content">
-<p>3</p>
+<p> \(\begin{cases} x(t)= -2\pm3\cosh(t) \\ y(t)=4+ 3\operatorname{senh}(t)\end{cases},\,t\in \mathbb{R} \)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i67_439" class="sr-av"><a href="#answer-67_439">Opção 4</a></label><input type="radio" name="option67_86" id="i67_439" class="exe-radio-option exe-radio-option-3-5-67_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-67_439"><div id="taans67_439" class="block iDevice_content">
+<p> \(\begin{cases} x(t)= -2+3\sec(t) \\ y(t)=4+ 3\tan(t)\end{cases},\,t\in (-\dfrac{\pi}{2},\dfrac{\pi}{2})\)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i67_442" class="sr-av"><a href="#answer-67_442">Opção 5</a></label><input type="radio" name="option67_86" id="i67_442" class="exe-radio-option exe-radio-option-4-5-67_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-67_442"><div id="taans67_442" class="block iDevice_content">
+<p> \(\begin{cases} x(t)= -2+3\sec(t) \\ y(t)=4+ 2\tan(t)\end{cases},\,t\in (-\dfrac{\pi}{2},\dfrac{\pi}{2})\cup (\dfrac{\pi}{2},\dfrac{3\pi}{2}) \)</p>
 </div>
 </div>
 </section>
@@ -547,17 +627,27 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Feedback</h1>
 <section id="sa0b67_86" class="feedback js-hidden">
 <div id="taf67_89" class=" iDevice_content">
-<p>f</p>
+<p>Ops! Essa curva é só um pedacinho da hipérbole. Qual?</p>
 </div>
 </section>
 <section id="sa1b67_86" class="feedback js-hidden">
 <div id="taf67_92" class=" iDevice_content">
-<p>f</p>
+<p>Ops! O cosseno e o seno devem ser hiperbólicos. Tente de novo!</p>
 </div>
 </section>
 <section id="sa2b67_86" class="feedback js-hidden">
 <div id="taf67_401" class=" iDevice_content">
-<p>f</p>
+<p>Muito bom!!</p>
+</div>
+</section>
+<section id="sa3b67_86" class="feedback js-hidden">
+<div id="taf67_439" class=" iDevice_content">
+<p>Ops! Faltou metade da hipérbole. Qual?</p>
+</div>
+</section>
+<section id="sa4b67_86" class="feedback js-hidden">
+<div id="taf67_442" class=" iDevice_content">
+<p>Muito bom!</p>
 </div>
 </section>
 </section>
@@ -567,7 +657,9 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <ol>
 <li><a href="#answer-67_89">Errado</a><span> (<a href="#sa0b67_86">Feedback</a>)</span></li>
 <li><a href="#answer-67_92">Errado</a><span> (<a href="#sa1b67_86">Feedback</a>)</span></li>
-<li><a href="#answer-67_401">Opção correta</a><span> (<a href="#sa2b67_86">Feedback</a>)</span></li>
+<li><a href="#answer-67_401">Errado</a><span> (<a href="#sa2b67_86">Feedback</a>)</span></li>
+<li><a href="#answer-67_439">Errado</a><span> (<a href="#sa3b67_86">Feedback</a>)</span></li>
+<li><a href="#answer-67_442">Opção correta</a><span> (<a href="#sa4b67_86">Feedback</a>)</span></li>
 </ol>
 </section>
 </section>
@@ -575,14 +667,13 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <form name="multi-choice-form-67_95" action="#" onsubmit="return false" class="activity-form">
 <h1 class="js-sr-av">Pergunta</h1>
 <div id="taquestion67_95" class="block question iDevice_content">
-<p><span style="color: #339966;">Qual das seguintes curvas é uma hipérbole?  </span></p>
-<p><span style="color: #339966;">Obs: Clique na resposta que você ache correta. O feedback aparecerá no final da questão.</span></p>
+<p><span style="color: #339966;">Qual das seguintes curvas é uma hipérbole?  <br />Obs: Clique na resposta que achar correta. O feedback aparecerá no final da pergunta. <br />Se você navegar pelo celular, poderá precisar arrastar as fórmulas para a esquerda para poder visualizar a equação completa. </span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
 <div class="iDevice_hint_content js-hidden">
 <div id="tahint67_95" class="block iDevice_content">
-<p>k</p>
+<p>Tente encontrar duas funções cujos gráficos juntos completem uma hipérbole toda. Use as parametrizações desses gráficos para dar a parametrização da hipérbole.</p>
 </div>
 </div>
 </section>
@@ -590,19 +681,28 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i67_98" class="sr-av"><a href="#answer-67_98">Opção 1</a></label><input type="radio" name="option67_95" id="i67_98" class="exe-radio-option exe-radio-option-0-2-67_95-multi"/>
+<label for="i67_98" class="sr-av"><a href="#answer-67_98">Opção 1</a></label><input type="radio" name="option67_95" id="i67_98" class="exe-radio-option exe-radio-option-0-3-67_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-67_98"><div id="taans67_98" class="block iDevice_content">
-<p>1</p>
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\pm \dfrac{2}{3}\sqrt{9-t^2}\end{cases}\;,\, t\in (-3,3) \quad \) </p>
 </div>
 </div>
 </section>
 <section class="iDevice_answer">
 <p class="iDevice_answer-field js-required">
-<label for="i67_101" class="sr-av"><a href="#answer-67_101">Opção 2</a></label><input type="radio" name="option67_95" id="i67_101" class="exe-radio-option exe-radio-option-1-2-67_95-multi"/>
+<label for="i67_101" class="sr-av"><a href="#answer-67_101">Opção 2</a></label><input type="radio" name="option67_95" id="i67_101" class="exe-radio-option exe-radio-option-1-3-67_95-multi"/>
 </p>
 <div class="iDevice_answer-content" id="answer-67_101"><div id="taans67_101" class="block iDevice_content">
-
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) =\pm \dfrac{2}{3}\sqrt{t^2-9}\end{cases}\;,\, |t|&gt;3 \quad \) </p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i67_448" class="sr-av"><a href="#answer-67_448">Opção 3</a></label><input type="radio" name="option67_95" id="i67_448" class="exe-radio-option exe-radio-option-2-3-67_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-67_448"><div id="taans67_448" class="block iDevice_content">
+<p>\( \quad \begin{cases} x(t)= t \\ y(t) = \dfrac{2}{3}\sqrt{t^2-9}\end{cases}\;,\, |t|&gt;3 \quad \) </p>
 </div>
 </div>
 </section>
@@ -611,11 +711,25 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <h1 class="js-sr-av">Feedback</h1>
 <section id="sa0b67_95" class="feedback js-hidden">
 <div id="taf67_98" class=" iDevice_content">
-<p>f</p>
+<p>Ops! Essa é outra curva. Qual?</p>
 </div>
 </section>
 <section id="sa1b67_95" class="feedback js-hidden">
-<p>Opção correta</p>
+<div id="taf67_101" class=" iDevice_content">
+<p>Achou!! A hipérbole <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; \dfrac{x^2}{9}-\dfrac{y^2}{4}=1 \; \) </span></span> não é o gráfico de uma função, mas a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\dfrac{2}{3}\sqrt{x^2-9}\; \) </span></span> e a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\;y=-\dfrac{2}{3}\sqrt{x^2-9}\; \) </span></span> sim o são.</p>
+<p>Observe que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=\dfrac{2}{3}\sqrt{x^2-9}\; \) </span></span> são os dois "chifres de cima" da hipérbole, pois \(y&gt;0\). Já a curva <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \(\; y=-\dfrac{2}{3}\sqrt{x^2-9}\; \) </span></span> são os dois "chifres de baixo" da hipérbole, pois \(y&lt;0\).</p>
+<p>Isolando \(\;y\;\) da equação cartesiana temos que <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \; \dfrac{y^2}{4}=\dfrac{x^2}{9}-1=\dfrac{x^2-9}{9}. \; \) </span></span> Logo \(y^2=\dfrac{4}{9}\sqrt{x^2-9},\;\) sempre que \(x^2-9\geq 0.\;\) Isto é, <a title="Atenção!" class="exe-dialog-link" rel="lightbox" href="#tc698ce68-5b81-0c6c-1e68-c31104a07b83" id="linkc698ce68-5b81-0c6c-1e68-c31104a07b83">\(|x|\geq 3.\)</a></p>
+<p>O que fizemos, então, foi juntar a parametrização dos quatro "chifres" como sendo gráfico de funções para obter a parametrização da hipérbole toda. Sacou?</p>
+<p>Contate os monitores caso você ainda esteja com dúvidas. Força!</p>
+<div id="tc698ce68-5b81-0c6c-1e68-c31104a07b83" class="exe-dialog-text js-hidden">
+<p>O intervalo das parametrizações devem ser abertos. Por isso |t|&gt;3.</p>
+</div>
+</div>
+</section>
+<section id="sa2b67_95" class="feedback js-hidden">
+<div id="taf67_448" class=" iDevice_content">
+<p>Ops! Faltou metade. Qual?</p>
+</div>
 </section>
 </section>
 </form>
@@ -624,6 +738,7 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <ol>
 <li><a href="#answer-67_98">Errado</a><span> (<a href="#sa0b67_95">Feedback</a>)</span></li>
 <li><a href="#answer-67_101">Opção correta</a><span> (<a href="#sa1b67_95">Feedback</a>)</span></li>
+<li><a href="#answer-67_448">Errado</a><span> (<a href="#sa2b67_95">Feedback</a>)</span></li>
 </ol>
 </section>
 </section>
@@ -637,14 +752,17 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta44_128_2" class="block iDevice_content">
-<div class="auto-geogebra auto-geogebra-sbe4gtg7 auto-geogebra-width-965 auto-geogebra-height-585 auto-geogebra-scale-100"><div class="auto-geogebra-instructions"><p>Fique a vontade de mexer nos valores a e b em cada cônica. O applet devolverá a parametrização. </p>
+<div class="auto-geogebra auto-geogebra-sbe4gtg7 auto-geogebra-width-965 auto-geogebra-height-585 language-pt enableShiftDragZoom auto-geogebra-scale-100"><div class="auto-geogebra-instructions"><p>Fique a vontade de mexer nos valores a e b em cada cônica. O applet devolverá a parametrização. </p>
 <p>A que se correspondem os valores a e b em cada cônica?</p>
 <p>Se você mexer no tempo t, o pontinho P irá percorrer toda a cônica. Tente relacionar o tempo t com os pontos da cônica dados pela parametrização!</p>
-<p>Para não poluir o applet, selecione apenas uma cônica de cada vez.</p></div><p><a href="https://www.geogebra.org/m/sbe4gtg7" target="_blank">https://www.geogebra.org/m/sbe4gtg7 (Nova janela)</a></p><div class="auto-geogebra-author js-hidden">Bego%F1a%20Alarc%F3n,https%3A//www.geogebra.org/m/hzvsftdf%23material/sbe4gtg7,C%F4nicas,1,Autoria</div><div class="auto-geogebra-extra-content"><p>Se faça as seguintes perguntas para cada curva:</p>
+<p>Para não poluir o applet, selecione apenas uma cônica de cada vez.</p></div><p><a href="https://www.geogebra.org/m/sbe4gtg7" target="_blank">https://www.geogebra.org/m/sbe4gtg7 (Nova janela)</a></p><div class="auto-geogebra-author js-hidden">Bego%F1a%20Alarc%F3n,https%3A//www.geogebra.org/m/hzvsftdf%23material/sbe4gtg7,C%F4nicas,1,Autoria</div><div class="auto-geogebra-extra-content"><p><span style="color: #339966;">Se faça as seguintes perguntas para cada curva:</span></p>
 <ol style="list-style-type: lower-alpha;">
-<li>Fixe um ponto qualquer Q da cônica. Em qual instante é atingido esse ponto? </li>
-<li>Fixe um intante t=t0. Por qual ponto passa a cônica nesse instante?</li>
-</ol></div></div>
+<li><span style="color: #339966;">Fixe um ponto qualquer Q da cônica. Em qual instante é atingido esse ponto? </span></li>
+<li><span style="color: #339966;">Fixe um instante \(t=t_0\). Por qual ponto passa a cônica nesse instante</span></li>
+</ol>
+<p>Comente com seus colegas!</p>
+<p style="font-family: 'Atkinson Hyperlegible', ​Arial, Helvetica, sans-serif;">Entre em contato com os monitores em caso de dúvidas.</p>
+<p style="font-family: 'Atkinson Hyperlegible', ​Arial, Helvetica, sans-serif;">Força!</p></div></div>
 </div>
 </div>
 </div>
@@ -676,14 +794,6 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p>As equações paramétricas <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= 1+2\cos(t) \\ y(t) &amp;=-2+ 2\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span> são da curva ...</p>
 <p></p>
 </div>
-<section class="iDevice_hint">
-<h1 class="iDevice_hint_title">Pista</h1>
-<div class="iDevice_hint_content js-hidden">
-<div id="tahint63_86" class="block iDevice_content">
-<p>Repare se o número que multiplica o cosseno é o mesmo número que multiplica o seno.</p>
-</div>
-</div>
-</section>
 <section class="iDevice_answers">
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
@@ -795,14 +905,6 @@ Boa!! Pode ir para o seguinte bloco. Força!-->
 <p>As equações paramétricas <span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code"> \( \quad \begin{cases} x(t) &amp;= 4+2\cos(t) \\ y(t) &amp;=4+ 3\operatorname{sen}(t)\end{cases} \quad ,\,t\in [0,2\pi] \quad \) </span></span> são da curva?</p>
 <p></p>
 </div>
-<section class="iDevice_hint">
-<h1 class="iDevice_hint_title">Pista</h1>
-<div class="iDevice_hint_content js-hidden">
-<div id="tahint63_311" class="block iDevice_content">
-<p>Repare se o número que multiplica o cosseno é diferente ao número que multiplica o seno.</p>
-</div>
-</div>
-</section>
 <section class="iDevice_answers">
 <h1 class="js-sr-av">Respostas</h1>
 <section class="iDevice_answer">
