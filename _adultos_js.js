@@ -274,3 +274,73 @@ $(function(){
 	}
 	myTheme.common.init();
 });
+
+
+
+
+
+
+
+
+
+
+var divHeader = document.querySelector('#header');
+var img = document.createElement('img');
+img.src = 'redmatlogo.png'; // Caminho da sua imagem
+img.alt = 'redmatlogo';
+var firstChild = divHeader.firstChild;
+divHeader.insertBefore(img, firstChild);
+// divHeader.appendChild(img);
+// divHeader.style.paddingTop = "10rem";
+// divHeader.style.backgroundImage = "url('banner4.png')";
+// divHeader.style.zIndex = '-2';
+// divHeader.style.borderRadius = "10px";
+
+
+
+
+// Contador
+var divMain = document.querySelector('#main');
+var novaDiv = document.createElement('div');
+novaDiv.innerHTML = "<a href='https://www.webcontadores.com' title='contador de visitas blogger'><img src='https://counter4.optistats.ovh/private/webcontadores.php?c=grrmsg7da3nd22a1txyyjxcu7j7ewe71' border='0' title='contador de visitas blogger' alt='contador de visitas blogger'></a>";
+divMain.appendChild(novaDiv);
+
+// var headerOptions = document.querySelector('#header-options');
+// console.log(headerOptions);
+// headerOptions.style.backgroundColor = 'red';
+// headerOptions.style.color = 'blue';
+// headerOptions.style.position = 'relative';
+
+
+
+// var siteNav = document.querySelector('#siteNav');
+// siteNav.style.backgroundColor = 'black';
+// siteNav.style.color='red';
+// console.log("Printa: " + siteNav.innerHTML);
+// var mainWrapper = document.querySelector('#main-wrapper');
+// mainWrapper.style.backgroundColor = "red";
+// mainWrapper.style.margin = "0px";
+
+
+
+// Tentativa frustrada de criar uma div para escurecer a imagem:
+// var divEscurecer = document.createElement('div');
+// divEscurecer.classList.add("divEscurecer");
+// divEscurecer.innerHTML = "Nova Div Escurecer";
+// divHeader.appendChild(divEscurecer);
+// divEscurecer.style.position = 'absolute';
+// var estilosHeader = window.getComputedStyle(divHeader);
+// var paddingLeft = parseFloat(estilosHeader.paddingLeft);
+// var larguraTotal = divHeader.offsetWidth;
+// divEscurecer.style.width = larguraTotal + "px";
+// divEscurecer.style.transform = "translateX(-" + paddingLeft + "px)";
+// var alturaTotal = divHeader.getBoundingClientRect().height;
+// console.log(alturaTotal);
+// divEscurecer.style.height = alturaTotal + "px";
+// console.log(divEscurecer.style.height);
+// divEscurecer.style.top="0";
+// divEscurecer.style.backgroundImage = "linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent, rgba(0, 0, 0, 0.5))";
+// divEscurecer.style.zIndex = '-1';
+// var divHeaderContent = document.querySelector('#headerContent');
+// divHeaderContent.style.zIndex = "10";
+
