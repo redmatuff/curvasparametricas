@@ -321,7 +321,7 @@ divMain.appendChild(novaDiv);
 // mainWrapper.style.backgroundColor = "red";
 // mainWrapper.style.margin = "0px";
 
-
+console.log("carregou o adultos);
 
 // Tentativa frustrada de criar uma div para escurecer a imagem:
 // var divEscurecer = document.createElement('div');
