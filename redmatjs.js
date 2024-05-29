@@ -1,3 +1,5 @@
+console.log("carregou o redmat.js");
+
 var myTheme = {
 	collapseActivities : true, // Minimize interactive activities
 	// Activities (to minify if collapseActivities is true)
@@ -321,7 +323,6 @@ divMain.appendChild(novaDiv);
 // mainWrapper.style.backgroundColor = "red";
 // mainWrapper.style.margin = "0px";
 
-console.log("carregou o adultos");
 
 // Tentativa frustrada de criar uma div para escurecer a imagem:
 // var divEscurecer = document.createElement('div');
