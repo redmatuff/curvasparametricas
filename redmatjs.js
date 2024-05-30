@@ -285,11 +285,12 @@ $(function(){
 
 
 
-
+// Logo do Header
 var divHeader = document.querySelector('#header');
 var img = document.createElement('img');
-img.src = 'redmatlogo.png'; // Caminho da sua imagem
+img.src = 'redmatlogo.png';
 img.alt = 'redmatlogo';
+// img.className = 'redmatlogo';
 var firstChild = divHeader.firstChild;
 divHeader.insertBefore(img, firstChild);
 // divHeader.appendChild(img);
