@@ -284,7 +284,7 @@
 
 
 
-
+// Lógica do menu (abrir e fechar)
 var menuAberto = false;
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -321,6 +321,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     });
 });
+
+
+// Ajusta menu ao redimensionar tela
+function adjustSiteNavPosition() {
+    if (window.innerWidth < 768 && menuAberto == false) {
+		siteNav.style.left = 'calc(-50vw + 50px)';
+	}else{
+		siteNav.style.left = 'calc(-25rem + 50px)';
+	}
+	if (menuAberto == true) {
+		siteNav.style.left = '0';
+	}
+}
+adjustSiteNavPosition();
+window.addEventListener('resize', adjustSiteNavPosition);
+
+
 
 
 
@@ -385,4 +402,37 @@ divMain.appendChild(novaDiv);
 // divEscurecer.style.zIndex = '-1';
 // var divHeaderContent = document.querySelector('#headerContent');
 // divHeaderContent.style.zIndex = "10";
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.iDevice_inner');
+    elements.forEach(function(element) {
+        element.addEventListener('click', function(event) {
+            event.stopPropagation();
+            // Fecha todos os iDevice_inner, exceto o atual
+            elements.forEach(function(innerElement) {
+                if (innerElement !== element && innerElement.style.maxHeight === 'none') {
+                    innerElement.style.maxHeight = '100px';
+                }
+            });
+            // Abre ou fecha o iDevice_inner clicado
+            if (this.style.maxHeight === 'none') {
+                // this.style.maxHeight = '100px';
+            } else {
+                this.style.maxHeight = 'none';
+            }
+        });
+    });
+    // Fecha todos os iDevice_inner quando qualquer outro lugar é clicado
+    document.addEventListener('click', function(event) {
+        elements.forEach(function(innerElement) {
+            // Verifica se o clique foi dentro de algum iDevice_inner
+            if (!innerElement.contains(event.target)) {
+                innerElement.style.maxHeight = '100px'; // Volta ao estilo original
+            }
+        });
+    });
+});
 
